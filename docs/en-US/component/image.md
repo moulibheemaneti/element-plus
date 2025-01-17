@@ -95,6 +95,7 @@ image/custom-toolbar
 | zoom-rate             | the zoom rate of the image viewer zoom event.                                                                                                     | ^[number]                                                               | 1.2     |
 | min-scale ^(2.4.0)    | the min scale of the image viewer zoom event.                                                                                                     | ^[number]                                                               | 0.2     |
 | max-scale ^(2.4.0)    | the max scale of the image viewer zoom event.                                                                                                     | ^[number]                                                               | 7       |
+| circle                | determine whether it's a circle avatar.                                                                                                           | ^[boolean]                                                              | false   |
 
 ### Image Events
 

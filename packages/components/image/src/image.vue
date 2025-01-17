@@ -126,9 +126,9 @@ const imageKls = computed(() => [
 ])
 
 const imageStyle = computed<CSSProperties>(() => {
-  const { fit } = props
+  const { fit, circle } = props
   if (isClient && fit) {
-    return { objectFit: fit }
+    return { objectFit: fit, borderRadius: circle ? '50%' : undefined }
   }
   return {}
 })

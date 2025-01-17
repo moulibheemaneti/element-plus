@@ -117,6 +117,13 @@ export const imageProps = buildProps({
   crossorigin: {
     type: definePropType<'anonymous' | 'use-credentials' | ''>(String),
   },
+  /**
+   * @description determine whether it's a circle avatar.
+   */
+  circle: {
+    type: Boolean,
+    default: false,
+  },
 } as const)
 export type ImageProps = ExtractPropTypes<typeof imageProps>
 
